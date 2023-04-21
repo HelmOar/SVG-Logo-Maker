@@ -41,7 +41,7 @@ const questions = [
 let shape;
 
 function init() {
-    inquirer.prompt(questions)
+    return inquirer.prompt(questions)
     .then((answers) => {
      switch (answers.shape) {
          case "circle": 
@@ -54,18 +54,20 @@ function init() {
                 shape = new Triangle();
             break;
      }   
-    })
+   
+
      //create new svg object with text and shape
 const svg = new svggenerator.SVG();
 svg.setText(answers.text, answers.color);
 svg.setShape(shape);
 shape.setColor(answers.shape_color);
 const svgString = svg.render();
-  
+return writeToFile("logo.svg", svgString)
+    })
 
 //function to write data to file
 function writeToFile(fileName, data) {
-    filesystem.writeFile (filename, data, (err) => {
+    fs.writeFile (fileName, data, (err) => {
         if (err)
         return console.log(err);
         
@@ -74,7 +76,7 @@ function writeToFile(fileName, data) {
     });
     }
 
-    writeToFile (svggenerator.SVG, svgString);
+ writeToFile (svggenerator.SVG, svgString);
 
 }
 
