@@ -24,13 +24,12 @@ This application is useful for freelance web developers to generate simple logos
 - When these are answered, a new SVG logo will be generated in an .svg file
 - If the user would like to save this file, it can be renamed, otherwise it will be overwritten
 
-!(https://youtu.be/ZzSSivEo2no)
 
 ![SVG_Logo_Maker](https://user-images.githubusercontent.com/122151785/233869729-8bb40cec-ff9f-4ab8-a0b1-1932a9b475b5.png)
 
+[SVG Generator Video.webm](https://user-images.githubusercontent.com/122151785/233869930-a9e7cd75-3a52-4406-8545-a2f452021e24.webm)
 
-
-
+[YouTubeLink](https://youtu.be/ZzSSivEo2no)
 ## Contributing
 chelmore1@bigpond.com
 
