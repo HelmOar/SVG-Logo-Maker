@@ -20,7 +20,7 @@ const questions = [
 {
     type: "input",
     name: "color",
-    message: "Enter a text color"
+    message: "Enter a text color. This can be a color keyword or a hexadecimal value."
 },
 
 {
@@ -33,7 +33,7 @@ const questions = [
 {
     type: "input",
     name: "shape_color",
-    message: "Enter a shape color"
+    message: "Enter a shape color.This can be a color keyword or a hexadecimal value."
 }, 
 
 ]
@@ -59,8 +59,9 @@ function init() {
      //create new svg object with text and shape
 const svg = new svggenerator.SVG();
 svg.setText(answers.text, answers.color);
-svg.setShape(shape);
 shape.setColor(answers.shape_color);
+svg.setShape(shape);
+
 const svgString = svg.render();
 return writeToFile("logo.svg", svgString)
     })
@@ -70,6 +71,9 @@ function writeToFile(fileName, data) {
     fs.writeFile (fileName, data, (err) => {
         if (err)
         return console.log(err);
+        else {
+            console.log("Generated logo.svg");
+        }
         
         // console.log(answers);
 
