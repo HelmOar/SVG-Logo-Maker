@@ -15,7 +15,8 @@ This application is useful for freelance web developers to generate simple logos
 - [Questions](#questions)
 
 ## Installation
-Inquirer Package
+- You will first need to install the following:
+[Inquirer Package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
 ## Usage
 - In the terminal run node index.js
@@ -27,7 +28,8 @@ Inquirer Package
 chelmore1@bigpond.com
 
 ## Tests
-A suite of tests is available in the shapes.test.js file using the JEST package.
+- A suite of tests is available in the shapes.test.js file using the JEST package
+- These can be found in the shapes.test.js file
 
 ## License 📛
       Copyright © MIT. All rights reserved. 
@@ -36,5 +38,5 @@ A suite of tests is available in the shapes.test.js file using the JEST package.
 
 ## Questions
 If you have any questions, please contact me at chelmore1@bigpond.com.
-You can also find more of my work at [HelmOar]( https://github.com/HelmOar/)
+You can also find more of my work at [HelmOar](https://github.com/HelmOar/)
 

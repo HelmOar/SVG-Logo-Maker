@@ -72,10 +72,10 @@ function writeToFile(fileName, data) {
         if (err)
         return console.log(err);
         else {
-            console.log("Generated logo.svg");
+            console.log("Success! Generated logo.svg");
         }
         
-        // console.log(answers);
+// console.log(answers);
 
     });
     }
