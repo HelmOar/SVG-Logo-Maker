@@ -29,6 +29,8 @@ This application is useful for freelance web developers to generate simple logos
 
 [SVG Generator Video.webm](https://user-images.githubusercontent.com/122151785/233869930-a9e7cd75-3a52-4406-8545-a2f452021e24.webm)
 
+[SVG Example](https://gist.github.com/HelmOar/54dea2dadfae3af6808af854511eb003)
+
 [YouTubeLink](https://youtu.be/ZzSSivEo2no)
 ## Contributing
 chelmore1@bigpond.com
